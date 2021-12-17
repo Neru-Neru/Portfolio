@@ -4,8 +4,8 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 
 const About: NextPage = () => {
   return (
-    <div className="px-4">
-      <h1 className="text-4xl text-green-700 text-center font-semibold">
+    <div className="container mx-auto">
+      <h1 className="text-4xl text-blue-700 text-center font-semibold">
         Hi, I am <span>Yuma.</span>
       </h1>
 
