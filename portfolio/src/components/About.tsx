@@ -4,8 +4,8 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 
 const About: NextPage = () => {
   return (
-    <div>
-      <h1>
+    <div className="px-4">
+      <h1 className="text-4xl text-green-700 text-center font-semibold">
         Hi, I am <span>Yuma.</span>
       </h1>
 
@@ -25,7 +25,7 @@ const About: NextPage = () => {
 
           <a
             href="https://twitter.com/falconneer"
-            aria-label="linkedin"
+            aria-label="twitter"
             className="link link--icon"
           >
             <TwitterIcon />
