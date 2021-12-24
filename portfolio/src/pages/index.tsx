@@ -4,6 +4,8 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 import About from "../components/About";
+import Sidebar from "../components/Sidebar";
+import Work from "../components/Work";
 
 const Home: NextPage = () => {
   return (
@@ -15,7 +17,12 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <About />
+      <div className="flex w-screen h-screen text-gray-400 bg-neutral-800">
+        <Sidebar/>
+        <>
+        <Work />
+        </>
+        </div>
       </main>
 
       <footer></footer>
