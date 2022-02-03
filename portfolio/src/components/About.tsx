@@ -5,9 +5,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 const About: NextPage = () => {
   return (
     <div className="container mx-auto">
-      <h1 className="text-4xl text-center font-semibold">
-        Yuma
-      </h1>
+      <h1 className="text-4xl text-center font-semibold">Yuma</h1>
 
       <h2>An Engeneer.</h2>
       <p></p>
@@ -33,7 +31,6 @@ const About: NextPage = () => {
         </div>
       </div>
     </div>
-    
   );
 };
 

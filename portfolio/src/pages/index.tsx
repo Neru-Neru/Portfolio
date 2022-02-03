@@ -17,11 +17,11 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-      <div className="flex w-screen h-screen text-gray-400 bg-neutral-800">
-        <Sidebar/>
-        <>
-        <Work />
-        </>
+        <div className="flex w-screen h-screen text-gray-400 bg-neutral-800">
+          <Sidebar />
+          <>
+            <Work />
+          </>
         </div>
       </main>
 
